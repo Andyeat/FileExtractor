@@ -1,0 +1,51 @@
+﻿QLabel
+{
+/*    color:rgb(255,255,255);*/
+    font: 14px "微软雅黑";
+}
+
+MainWindow QPushButton#btnSourceBrowser,
+MainWindow QPushButton#btnTargetBrowser,
+MainWindow QPushButton#btnFile2Suffix
+{
+    border-image: url(:/image/button/dir.png);
+}
+
+MainWindow QPushButton#btnSourceBrowser:hover,
+MainWindow QPushButton#btnTargetBrowser:hover,
+MainWindow QPushButton#btnFile2Suffix:hover
+{
+    border-image: url(:/image/button/dir.png);
+    background:rgb(180,180,180);
+    border-radius: 4px;
+/*    border-image: url(:/image/button/dir_hover.png);*/
+}
+
+MainWindow QPushButton#btnSourceBrowser:pressed,
+MainWindow QPushButton#btnTargetBrowser:pressed,
+MainWindow QPushButton#btnFile2Suffix:pressed
+{
+    border-image: url(:/image/button/dir.png);
+    background:rgb(150,150,150);
+    border-radius: 4px;
+/*    border-image: url(:/image/button/dir_pressed.png);*/
+}
+
+MainWindow QPushButton#btnStart
+{
+    border-image: url(:/image/button/start.png);
+    border-radius: 4px;
+}
+MainWindow QPushButton#btnStart:hover
+{
+    border-image: url(:/image/button/start.png);
+    background:rgb(180,180,180);
+    border-radius: 4px;
+
+}
+MainWindow QPushButton#btnStart:pressed
+{
+    border-image: url(:/image/button/start.png);
+    background:rgb(150,150,150);
+    border-radius: 4px;
+}
